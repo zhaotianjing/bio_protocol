@@ -66,4 +66,4 @@ GWAS(marker_effects_file,header=true)
 
 
 [^fn1]: Matthew A Cleveland, John M Hickey, Selma Forni, A Common Dataset for Genomic Analysis of Livestock Populations, G3 Genes|Genomes|Genetics, Volume 2, Issue 4, 1 April 2012, Pages 429–435, https://doi.org/10.1534/g3.111.001453
-[^fn2]: Cheng, H., Fernando, R. L., and Garrick, D. J. 2018 JWAS: Julia implementation of whole-genome analysis software. Proceedings of the World Congress on Genetics Applied to Livestock Production,11.859. Auckland, New Zealand.
+[^fn2]: Cheng, Hao, Rohan Fernando, and Dorian Garrick. "JWAS: Julia implementation of whole-genome analysis software." Proceedings of the world congress on genetics applied to livestock production. Vol. 11. 2018.

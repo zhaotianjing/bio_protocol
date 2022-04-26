@@ -1,1 +1,1 @@
-# Bayesian multiple regression methods applied to genomic prediction and genome-wide association studies
+# Bayesian regression methods applied to genome-wide prediction and association studies

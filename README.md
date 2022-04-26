@@ -18,7 +18,9 @@ The publicaly available pig genotypes, phenotypes, and pedigree data in [^fn1] w
 
 
 ## Procedure
-The workflow of JWAS is shown in below figure. 
+The workflow of JWAS is shown in below figure. The major steps indlucing (1) read the data, (2) build the model, and (3) run analysis.
+![Screen Shot 2022-04-26 at 9 59 35 AM](https://user-images.githubusercontent.com/18593116/165353767-65da93ba-2b24-4b79-82d4-007f34637b8d.png)
+
 
 
 Below is an example of multi-trait genomic prediction and GWAS analysis.
@@ -58,6 +60,7 @@ marker_effects_file="results/MCMC_samples_marker_effects_genotypes_t1.txt"
 GWAS(marker_effects_file,header=true)
 
 ```
+Estimates, standard deviations, and MCMC samples for variables of interest can be found in the output folder.
 
 
 [^fn1]: Matthew A Cleveland, John M Hickey, Selma Forni, A Common Dataset for Genomic Analysis of Livestock Populations, G3 Genes|Genomes|Genetics, Volume 2, Issue 4, 1 April 2012, Pages 429–435, https://doi.org/10.1534/g3.111.001453

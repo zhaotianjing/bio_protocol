@@ -19,6 +19,7 @@ The publicaly available pig genotypes, phenotypes, and pedigree data in [^fn1] w
 
 ## Procedure
 The workflow of JWAS is shown in below figure. The major steps are (1) reading data, (2) building model, and (3) running analysis.
+
 ![Screen Shot 2022-04-26 at 9 59 35 AM](https://user-images.githubusercontent.com/18593116/165353767-65da93ba-2b24-4b79-82d4-007f34637b8d.png)
 
 

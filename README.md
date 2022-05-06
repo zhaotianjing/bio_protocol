@@ -36,7 +36,7 @@ Below is an example of multi-trait genomic prediction and GWAS analysis. Estimat
 
 # B. Run Bayesian multiple regression methods in JWAS
 # 1. Load packages
-using JWAS,DataFrames,CSV,Statistics
+using JWAS,DataFrames,CSV,Statistics,HTTP;
 
 # 2. Read data
 function getdata(file_name)  # function to load data from github folder

@@ -39,9 +39,17 @@ Below is an example of multi-trait genomic prediction and GWAS analysis. Estimat
 using JWAS,DataFrames,CSV,Statistics
 
 # 2. Read data
-phenotypes = CSV.read("phenotypes.txt",DataFrame,delim = ',',header=true,missingstrings=["."])
-pedigree   = get_pedigree("pedigree.txt",separator=",",header=true)
-genotypes  = get_genotypes("genotypes_5k.txt",separator=',',method="BayesC")
+function getdata(file_name)  # function to load data from github folder
+    http_obj = HTTP.get("https://raw.githubusercontent.com/zhaotianjing/bio_protocol/main/data/$file_name.txt")
+    data = CSV.read(http_obj.body, DataFrame,header=true,missingstrings=["."])
+end
+
+phenotypes = getdata("phenotypes")
+genotypes = getdata("genotypes_5k")
+pedigree = getdata("pedigree");
+
+pedigree   = get_pedigree(pedigree,separator=",",header=true)
+genotypes  = get_genotypes(genotypes,separator=',',method="BayesC")
 
 
 # 3. Build Model Equations

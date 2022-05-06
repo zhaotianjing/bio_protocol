@@ -86,10 +86,10 @@ out=runMCMC(model,phenotypes,chain_length=1000);
 # EBV_t3.txt            | estimated breeding values for trait  "t3" 
 # genetic_variance.txt  | estimated genetic variance-covariance matrix across traits
 # residual_variance.txt | estimated residual variance-covariance matrix across traits
-# heritability.txt      | estimated heritabilities for all analyzed traits
+# heritability.txt      | estimated heritabilities for analyzed traits
 # pi_genotypes.txt      | estimated probability for marker inclusion patterns
-# marker_effects_genotypes.txt            | estimated marker effects for all analyzed traits
-# polygenic_effects_covariance_matrix.txt | 
+# marker_effects_genotypes.txt            | estimated marker effects for analyzed traits
+# polygenic_effects_covariance_matrix.txt | estimated variance-covariance matrix for polygenic effects
 # --------------------------------------------------------------------------------------------------
 
 
